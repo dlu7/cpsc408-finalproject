@@ -10,3 +10,5 @@ https://stackoverflow.com/questions/24347895/regex-for-hour-minute-and-second-fo
 https://pynative.com/python-mysql-transaction-management-using-commit-rollback/#h-python-mysql-commit-rollback-and-setautocommit-to-manage-transactions
 https://pandas.pydata.org/pandas-docs/stable/index.html
 
+Known Errors:
+- Certain SQL statements will execute even when the user and/or movie does not exist. Rollback is implemented despite this error.
