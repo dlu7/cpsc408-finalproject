@@ -20,7 +20,7 @@ https://pynative.com/python-mysql-transaction-management-using-commit-rollback/#
 https://pandas.pydata.org/pandas-docs/stable/index.html
 
 Notes:
-Most of the data in the tables were generated using the Faker package. 
+Most of the data in the tables was generated using the Faker package, meaning the data is fake. 
 
 Known Errors:
 Certain SQL statements will execute even when the user and/or movie does not exist, but others will rollback as intended.
