@@ -11,4 +11,5 @@ https://pynative.com/python-mysql-transaction-management-using-commit-rollback/#
 https://pandas.pydata.org/pandas-docs/stable/index.html
 
 Known Errors:
-- Certain SQL statements will execute even when the user and/or movie does not exist. Rollback is implemented despite this error.
+Certain SQL statements will execute even when the user and/or movie does not exist, but others will rollback as intended.
+Rollback is still implemented for these SQL statements despite this error.
